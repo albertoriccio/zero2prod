@@ -1,5 +1,5 @@
+use actix_web::{dev::Server, web, App, HttpServer};
 use std::net::TcpListener;
-use actix_web::{HttpServer, App, dev::Server, web};
 
 //use zero2prod::run;
 use super::routes;

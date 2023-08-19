@@ -1,13 +1,12 @@
 use std::net::TcpListener;
 
-use zero2prod::{startup::run, configuration::get_configuration};
+use zero2prod::{configuration::get_configuration, startup::run};
 
 use std::env;
 
 #[allow(unused_variables)]
 #[tokio::main]
 async fn main() -> std::io::Result<()> {
-
     let dir = env::current_dir().unwrap();
     println!("{}", dir.display());
 
