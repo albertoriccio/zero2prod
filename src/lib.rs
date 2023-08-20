@@ -8,5 +8,3 @@ pub mod startup;
 //     let name = req.match_info().get("name").unwrap_or("World");
 //     format!("Hello {}!", &name)
 // }
-
-
